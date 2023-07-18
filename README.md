@@ -4,6 +4,9 @@ Fork自 https://github.com/Nouko61/UsbEAm-LAN-Party-Server 的非docker版本。
 ## 安装依赖
 sudo apt install openvpn
 
+## 配置权限
+chmod +x run.sh checkpsw.sh
+
 ## 启动容器
 
 ``` bash

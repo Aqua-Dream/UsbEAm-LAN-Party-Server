@@ -6,6 +6,10 @@ if [ ! -c /dev/net/tun ]; then
     mknod /dev/net/tun c 10 200
 fi
 
+if [ ! -d data ]; then
+    mkdir data
+fi
+
 # 添加初始用户名密码
 if [ ! -f data/psw-file ]; then
     echo "username1 password1" > data/psw-file
