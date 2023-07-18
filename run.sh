@@ -12,5 +12,5 @@ if [ ! -f data/psw-file ]; then
 fi
 
 # 开启服务端
-openvpn server_tcp.conf &
-openvpn server_udp.conf
+openvpn server/server_tcp.conf &
+openvpn server/server_udp.conf
