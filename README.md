@@ -7,7 +7,7 @@ sudo apt install openvpn
 ## 配置权限
 chmod +x run.sh checkpsw.sh
 
-## 启动容器
+## 启动服务
 
 ``` bash
 cd UsbEAm-LAN-Party-Server
